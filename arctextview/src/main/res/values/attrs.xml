@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcTextView">
+        <attr name="arc_background_color" format="color"/>
+        <attr name="arc_border_color" format="color"/>
+        <attr name="arc_border_width" format="dimension"/>
+        <attr name="border" format="boolean"/>
+    </declare-styleable>
+</resources>
