@@ -1,5 +1,7 @@
 # ArcTextView
 
+![image](./images/arcTextView.jpeg)
+
 ## Introduction
 这是一个简单修改TextView的库，主要是实现左右圆角TextView，并且可以选择添加边框并这只边框的颜色。
 
