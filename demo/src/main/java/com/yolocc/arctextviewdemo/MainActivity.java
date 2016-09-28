@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ArcTextView textView = (ArcTextView) findViewById(R.id.text);
-        textView.setArcBackgroundColor(getResources().getColor(R.color.colorPrimary));
+        textView.setArcBackgroundColor(getResources().getColor(R.color.pink));
+        textView.setBorderColor(getResources().getColor(R.color.colorPrimary));
+        textView.setBorder(true);
     }
 }

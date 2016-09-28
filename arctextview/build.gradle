@@ -24,7 +24,7 @@ android {
 }
 
 group = 'com.yolocc.arctextview'
-version = '1.0.0'
+version = '1.0.1'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -69,10 +69,10 @@ bintray {
         name = 'com.yolocc.arctextview'
 
         version {
-            name = '1.0.0'
+            name = '1.0.1'
             desc = "ActTextView"
 //            released = new Date()
-            vcsTag = '1.0.0'
+            vcsTag = '1.0.1'
         }
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/SpiritMan/ArcTextView.git'

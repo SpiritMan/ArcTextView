@@ -171,6 +171,20 @@ public class ArcTextView extends TextView {
         invalidate();
     }
 
+    /**
+     * 设置是否要边框
+     *
+     * @param isBorder boolean
+     */
+    public void setBorder(boolean isBorder) {
+        if(this.isBorder == isBorder) {
+            return;
+        } else {
+            this.isBorder = isBorder;
+            invalidate();
+        }
+    }
+
     public float dp2px(float dp) {
         return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp,
                 getResources().getDisplayMetrics());

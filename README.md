@@ -15,6 +15,7 @@
 |                  border                  | 是否有边框，默认 |
 |   setBorderColor(@ColorInt int color)    |  设置边框颜色  |
 | setArcBackgroundColor(@ColorInt int color) |  设置背景颜色  |
+| setBorder(boolean isBorder) | 设置是否边框 |
 
 ```xml
 <com.yolocc.arctextview.ArcTextView
